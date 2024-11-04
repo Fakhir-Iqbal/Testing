@@ -1,0 +1,43 @@
+
+1: npm init -y //This command creates a package.json file, which keeps track of your project’s info and dependencies.
+2: install library moggose ,express ,cors ,nodemon, JWT
+
+
+
+why install mongoose ?
+Mongoose: Helps you connect to a MongoDB database and work with your data easily.
+
+
+
+why install express ?
+Express: A web framework for Node.js that makes it easier to build web applications and handle API requests.
+
+
+
+why install cors ?
+CORS: Allows you to control which websites can access your server. This is important for security.
+
+
+
+why install nodemon ?
+Nodemon: Automatically restarts your server when you make changes to your code, so you don’t have to do it manually. 
+(Note : if You edit .en file you should restart your terminal)...
+
+
+
+why install JWT ?
+JWT, or JSON Web Token, is a way to securely send information between two parties. It consists of three parts:
+
+Header: Contains info about how the token is signed.
+Payload: Holds the actual data, like user information.
+Signature: Ensures the token hasn’t been tampered with.
+
+JWTs are often used for user authentication, allowing a server to verify the identity of a user without needing to keep session data.
+
+
+
+After installing the libraries, create a main file in your project’s root folder (like index.js). 
+This file will start your server and set up everything you need for your app.
+
+
+
